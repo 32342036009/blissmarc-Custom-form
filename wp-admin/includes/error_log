@@ -1,0 +1,2 @@
+[18-Aug-2016 18:40:49 UTC] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/h0pe/public_html/blissmarc.com/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17
+[18-Aug-2016 18:40:53 UTC] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/h0pe/public_html/blissmarc.com/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17

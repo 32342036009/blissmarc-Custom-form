@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media print {
+	 body {-webkit-print-color-adjust: exact;}
+ @page {
+    size: 1240px 1754px;
+    width: 1240px;
+    height: auto;
+    padding: 0px;	
+  } 
+ #page1 img, #page15 img {display:block; width:100%; height:1240px;} 
+  .paper{
+    padding: 0px;
+    width:1120px ;
+    height: auto;
+    float:none;
+    margin-top: 0px;
+    page-break-after:always;
+  }
+  .folder-info h5 {
+    color: #e42c1a;
+    font-size: 48px;
+    font-weight: normal;
+}
+.inner-wraper {padding:0 5%;}
+.inner-wraper .row {margin-bottom:20px;}
+.foot-note {font-size:11px; color:#fff; background:#8e8f90; font-style:italic;}
+.logo {
+    text-align: right;
+}
+.address {
+	font-size: 18px;
+	font-weight: 400;
+}
+.profile {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.profile a {color:#000;}
+.profile .fa {color:#007ab5;}
+.red {color:#c2002e;}
+.gray {color:#8e8f90; font-size:20px; padding-bottom:5px;}
+.key-contacts {text-align: left;
+color: #fff;
+font-size: 45px;
+font-weight: bold;
+padding-top: 410px;
+padding-bottom: 75px;}
+.app-form {text-align:right; color:#c2002e; font-size: 38px; font-weight: bold;}
+.qrops {text-align: right;
+color: #fff;
+font-size: 45px;
+font-weight: bold;
+padding-top: 186px;
+padding-bottom: 55px;}
+  .temp-sign.new-color .signature {height:37!important;}
+.logo {
+  width: 80%;
+}
+body {
+ line-height: normal; font-size:17px;
+}
+.textH {
+  height: 20px; 
+}
+.sec1 > input {
+  width: 20%;
+}
+.sec10 > input {
+  /*width: 67%;*/
+   width: 20%;
+}
+.sec5 > input {
+  width: 21%;
+}
+.sec15 > input {
+  width: 37%;
+}
+ .justinhong > a {
+    background: #818285 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 43%;
+    text-decoration: none;
+} 
+.special-note {background:#c0c0c0; border:2px solid #000; padding:8px; width:100%; display:table;}
+.special-note input[type="text"] {background:transparent;}
+.more-gap {padding-left: 18px;}
+.right-move .radio_wrapper {float:right;}
+input[type="text"], textarea{
+width:100%; float:right;
+  border: 2px solid #ccc;
+  outline: none;
+  margin-left: 0;
+}
+.amount-feed input[type="text"] {width:90%; padding:4px 8px;}
+.amount-feed input::placeholder {text-align:right; padding-right:4px;}
+.inner-wraper .row {margin-bottom:20px;}
+.foot-note {font-size:11px; color:#fff; background:#8e8f90; font-style:italic;}
+#page1.paper, #page15.paper {
+    padding: 0;
+}
+.heading {color:#000; font-weight:600; font-size:31px; margin-bottom:20px;}
+.paper h3 {font-weight:bold;}
+.heading + img {
+    margin-bottom: 30px;
+}
+.super {
+    font-variant: super;
+}
+.heads {background: #8e8f90;
+color: #fff; font-size:19px;
+padding: 12px; font-size:17px;
+height: 70px;}
+.tax-form {
+    padding: 0 15px 10px;
+}
+.red-text {color:red; text-decoration:underline;}
+input[type="checkbox"], input[type="radio"] {vertical-align:top;}
+.left-side > div input {
+    padding: 6px;
+    border-bottom: solid #ccc;
+    border-width: 0 1px 1px;
+}
+.left-side {width:50%; float:left;}
+.logo {
+    text-align: right;
+}
+.address {
+	font-size: 18px;
+	font-weight: 400;
+}
+.profile {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.profile a {color:#000;}
+.profile .fa {color:#007ab5;}
+.red {color:#c2002e;}
+.gray {color:#8e8f90; font-size:20px; padding-bottom:5px;}
+.key-contacts {text-align: left;
+color: #fff;
+font-size: 45px;
+font-weight: bold;
+padding-top: 410px;
+padding-bottom: 75px;}
+.app-form {text-align:right; color:#c2002e; font-size: 38px; font-weight: bold;}
+.qrops {text-align: right;
+color: #fff;
+font-size: 45px;
+font-weight: bold;
+padding-top: 186px;
+padding-bottom: 55px;}
+.right-check {text-align:right;}
+.inner-wraper {padding:0;}
+}
+

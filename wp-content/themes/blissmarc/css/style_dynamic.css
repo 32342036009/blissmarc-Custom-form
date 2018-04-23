@@ -1,0 +1,287 @@
+
+
+
+
+
+    body{
+    	    	    	font-family: 'Raleway', sans-serif;
+    	    	 color: #383636;     	 font-size: 16px;     	font-weight: 400;    }
+    
+
+
+
+
+
+
+
+.header_top{
+	background-color: rgba(249,249,249,1);
+}
+header.sticky .header_top{
+	background-color: rgba(249,249,249,0.7);
+}
+
+
+
+						.content{
+				margin-top: -183px;
+			}
+				
+	
+.logo_wrapper,
+.side_menu_button,
+.shopping_cart_inner
+{
+	height: 150px;
+}
+.content.content_top_margin{
+	margin-top: 183px !important;
+}
+
+header:not(.centered_logo) .header_fixed_right_area {
+    line-height: 150px;
+}
+
+<!---->
+<!--.drop_down .second,-->
+<!--.drop_down .second.bellow_header-->
+<!--{-->
+<!--	top: --><!--px;-->
+<!--}-->
+
+
+
+
+        header.fixed_hiding .q_logo a,
+        header.fixed_hiding .q_logo{
+            max-height: 0px;
+        }
+
+    @media only screen and (max-width: 1000px){
+        .q_logo a,.q_logo img{
+            height: 50px !important;
+        }
+    }   
+
+
+nav.main_menu > ul > li > a{
+	line-height: 150px;
+}
+
+
+nav.main_menu > ul > li > a{
+	 color: #6b1c1a; 		    				}
+
+
+	nav.main_menu > ul > li:not(:first-child):before {
+		content: '|';
+		position: relative;
+		left: -2px;
+		color: #9e9e9e;
+		font-size: 15px;
+		font-weight: 400;
+	}
+
+nav.main_menu ul li:hover a {
+	 color: #000000; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    p{
+    	color: #383636;    	    		font-family: 'Raleway', sans-serif;
+    	    	font-size: 16px;    	    	font-style: normal;    	font-weight: 400;    	    	    }
+    .filter_holder ul li span,
+    blockquote h5,
+    .q_social_icon_holder i.simple_social,
+    .header-widget.widget_nav_menu ul.menu li a,
+    .side_menu a,
+    .side_menu li,
+    .side_menu span,
+    .side_menu p,
+    .side_menu .widget.widget_rss li a.rsswidget,
+    .side_menu #wp-calendar caption,
+    .side_menu #wp-calendar th, 
+    .side_menu #wp-calendar td,
+    aside .widget #lang_sel_list li a,
+    aside .widget #lang_sel li a,
+    aside .widget #lang_sel_click li a,
+    section.side_menu #lang_sel_list li a,
+    section.side_menu #lang_sel li a,
+    section.side_menu #lang_sel_click li a,
+    footer #lang_sel_list li a,
+    footer #lang_sel li a,
+    footer #lang_sel_click li a,
+    footer #lang_sel_list.lang_sel_list_horizontal a,
+    footer #lang_sel_list.lang_sel_list_vertical a,
+    .side_menu #lang_sel_list.lang_sel_list_horizontal a,
+    .side_menu #lang_sel_list.lang_sel_list_vertical a,
+    #lang_sel_footer a{
+    	color: #383636;    }
+    .header_top #lang_sel > ul > li > a, 
+    .header_top #lang_sel_click > ul > li> a,
+    footer #lang_sel ul li a,
+    footer #lang_sel ul ul a,
+    footer #lang_sel_click ul li a,
+    footer #lang_sel_click ul ul a,
+    footer #lang_sel_click ul ul a span,
+    section.side_menu #lang_sel ul li a,
+    section.side_menu #lang_sel ul ul a,
+    section.side_menu #lang_sel ul ul a:visited,
+    section.side_menu #lang_sel_click > ul > li > a,
+    section.side_menu #lang_sel_click ul ul a,
+    section.side_menu #lang_sel_click ul ul a:visited{
+    	color: #383636 !important;    }
+    a, p a{
+	color: #1a54ad;	font-style: normal;	font-weight: 400;	text-decoration: none;}
+
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,
+.q_icon_with_title .icon_with_title_link,
+.blog_holder article .post_description a:hover,
+.blog_holder.masonry article .post_info a:hover,
+.breadcrumb .current,
+.breadcrumb a:hover,
+.portfolio_social_holder a:hover,
+.latest_post_inner .post_infos a:hover{
+    color: #1a54ad;}
+a:hover,p a:hover,
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,
+.q_tabs .tabs-nav li a:hover,
+.q_icon_with_title .icon_with_title_link:hover,
+.blog_holder article .post_description a:hover,
+.blog_holder.masonry article .post_info a:hover,
+.portfolio_social_holder a:hover,
+.latest_post_inner .post_infos a:hover{
+	color: #124c8e;	text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+.google_map{
+	height: 300px;
+}
+
+
+
+
+	.footer_bottom_holder, #lang_sel_footer{
+		background-color:#491919;
+	}
+
+
+
+.footer_bottom, .footer_bottom span, .footer_bottom p, .footer_bottom p a, #lang_sel_footer ul li a,
+footer #lang_sel > ul > li > a,
+footer #lang_sel_click > ul > li > a,
+footer #lang_sel a.lang_sel_sel,
+footer #lang_sel_click a.lang_sel_sel,
+footer #lang_sel ul ul a,
+footer #lang_sel_click ul ul a,
+footer #lang_sel ul ul a:visited,
+footer #lang_sel_click ul ul a:visited,
+footer #lang_sel_list.lang_sel_list_horizontal a,
+footer #lang_sel_list.lang_sel_list_vertical a,
+#lang_sel_footer a,
+.footer_bottom ul li a {
+	color:#ffffff;
+}
+
+	.footer_bottom p a:hover, #lang_sel_footer ul li a:hover,
+	footer #lang_sel > ul > li > a:hover,
+	footer #lang_sel_click > ul > li > a:hover,
+	footer #lang_sel a.lang_sel_sel:hover,
+	footer #lang_sel_click a.lang_sel_sel:hover,
+	footer #lang_sel ul ul a:hover,
+	footer #lang_sel_click ul ul a:hover,
+	footer #lang_sel ul ul a:hover,
+	footer #lang_sel_click ul ul a:hover,
+	footer #lang_sel_list.lang_sel_list_horizontal a:hover,
+	footer #lang_sel_list.lang_sel_list_vertical a:hover,
+	#lang_sel_footer a:hover,
+	.footer_bottom ul li a:hover {
+	    color: #fcfcfc;
+	}
+
+
+
+
+
+
+
+
+	.blog_holder.blog_small_image article .post_text .post_text_inner{
+	border:1px solid #f6f6f6;
+
+	}
+	.blog_holder.blog_small_image article:not(.format-quote):not(.format-link) .post_text .post_text_inner{
+	border-top:none;
+	}
+	.blog_holder.blog_small_image article .post_text .post_text_inner {
+	border-color: #ffffff;
+	}
+	.blog_holder.blog_small_image article:not(.format-quote):not(.format-link) .post_text .post_text_inner {
+	background-color: #ffffff;
+	}
+	.blog_holder.blog_small_image article .post_text .post_text_inner {
+	border-width: 10px;
+	border-style: solid;
+	}
+
+
+
+
+ 
+  
+
+
+
+	.vertical_menu_area{
+		text-align:left;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
